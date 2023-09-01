@@ -1,0 +1,48 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+input, select, option, optgroup, textarea, button,
+pre, code {
+  font-size: 100%;
+  font-family: inherit;
+}
+ol, ul {
+  list-style: none;
+}
+
+:root {
+  --color1: black;
+  --color2: rgb(6, 45, 90);
+  --color3: #22272c;
+  --color4: maroon
+
+
+}
+/* DO NOT CHANGE NAME the reason this is the only thing that work is only known to God, I dont even know and i wrote this code.*/
+.orange {
+  background-color: var(--color2);
+  color: var(--color4);
+  /* font-family: "Open sans"; */
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+main {
+  min-height: calc(100vh - 300px);
+}
