@@ -1,13 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 import Header from "./components/Header"
 import Page from "./components/Page"
 import Footer from './components/Footer'
+
+const pages = ["about", "portfolio", "contact", "resume" ]
+
 function App() {
+  const [currentPage, setCurrentPage] = useState("about")
   return (
 <div className="orange">
-  <Header />
+  <Header pages={pages} currentPage={currentPage}
+  setCurrentPage={setCurrentPage} />
   <main>
-    <Page />
+    <Page currentPage={currentPage} />
   </main>
   <Footer />
 </div>

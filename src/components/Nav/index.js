@@ -1,0 +1,22 @@
+import React from 'react'
+import "./style.css"
+
+
+const Nav = ({pages, currentPage, setCurrentPage}) => {
+  return (
+   <nav className=" nav d-flex justify-content-between align-item-center" >
+    {pages.map(page => (
+        <a href={page.name}
+        key={page} 
+        className={`nav-link ${page === currentPage && "active"}`}
+        onClick={() => setCurrentPage(page)}>
+            {page}</a>
+    ))}
+   </nav>
+  )
+
+
+}
+
+export default Nav
+

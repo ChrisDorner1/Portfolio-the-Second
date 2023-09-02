@@ -36,8 +36,7 @@ ol, ul {
 .orange {
   background-color: var(--color2);
   color: var(--color4);
-  /* font-family: "Open sans"; */
-  font-weight: 600;
+  font-family: 'Victor Mono', monospace;  font-weight: 600;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -45,4 +44,11 @@ ol, ul {
 
 main {
   min-height: calc(100vh - 300px);
+}
+
+
+
+a {
+  text-decoration: none;
+  color: var(--color4)
 }
