@@ -8,9 +8,9 @@ const Project = ({project}) => {
   <div className="card-img-overlay">
     <h3 className="card-title">
         <a href={project.link} className="card-text linkColor">{project.name}</a>
-        <a href={project.repo} className="card-text linkColor"> github icon here</a>
+        <a href={project.repo} className="card-text linkColor" ><i className="fab fa-github"></i></a>
     </h3>
-    <p className="card-text">{project.description}</p>
+    <p className="card-text desc">{project.description}</p>
   </div>
 </div>
     </div>

@@ -3,11 +3,11 @@ import React from 'react'
 const About = () => {
   return (
     <>
-    <div className="d-flex align-items-center me-4">
-      <i className="fas fa-user-circle"></i>
+    <div className="d-flex align-items-center me-4 mt-5">
+      
 
       <p>
-        My Name is Christian Dorner (Preferably Chris). I grew up on a homestead 30 miles from the closest small town and have always
+        <i className="fas fa-user-circle mx-2"></i>My Name is Christian Dorner (Preferably Chris). I grew up on a homestead 30 miles from the closest small town and have always
         loved electronics. Upon moving out and getting a job i realized i didn't want to continue the cycle of living on a homestead like
         my family. Instead i show a talent for taking apart and fixing small electronic, this lead me to have an interest in coding.
         when i started to watch vidoes on how to code i quickly realized that, while teaching myself was possible, it would be extremely difficult.

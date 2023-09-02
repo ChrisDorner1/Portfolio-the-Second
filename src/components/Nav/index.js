@@ -4,9 +4,9 @@ import "./style.css"
 
 const Nav = ({pages, currentPage, setCurrentPage}) => {
   return (
-   <nav className=" nav d-flex justify-content-between align-item-center" >
+   <nav className=" nav d-flex justify-content-between align-item-right me-0" >
     {pages.map(page => (
-        <a href={page.name}
+        <a href="/#"
         key={page} 
         className={`nav-link ${page === currentPage && "active"}`}
         onClick={() => setCurrentPage(page)}>

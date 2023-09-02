@@ -4,7 +4,6 @@ import About from "./About";
 import Resume from "./Resume";
 import Contact from "./Contact"
 import "./style.css"
-// import { capitalize } from "../utils";
 
 const Page = ({currentPage}) => {
     const renderPage = (page) => {
@@ -19,8 +18,8 @@ const Page = ({currentPage}) => {
                 return <About/>
         }
     }
-    return <section className="container" >
-        <h2 className="mb-3" >{currentPage}</h2>
+    return <section className="container mt-4" >
+        <h2 className="mb-5" >{currentPage}</h2>
         {renderPage(currentPage)}
         </section>
 }

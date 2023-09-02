@@ -1,5 +1,15 @@
 .linkColor{
-    color: var(--color4);
+    color: black;
     font-size: 18px;
     font-weight: 1000;
+}
+
+.desc{
+    color: rgb(255, 145, 0);
+    opacity: 0.6;
+}
+
+.desc:hover{
+    opacity: 1;
+    color: rgb(255, 145, 0);
 }
