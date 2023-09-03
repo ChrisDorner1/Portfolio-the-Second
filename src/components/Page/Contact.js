@@ -7,11 +7,13 @@ const Contact = () => {
     e.preventDefault()
     console.log(e.target.name)
     setFormState({...formState, [e.target.name]: e.target.value})
+
   }
   const [formState, setFormState] = useState({name: "", email: "", message:""})
 const handleSubmit = (e) => {
   e.preventDefault()
   console.log(formState)
+  
 }
 
   return (
