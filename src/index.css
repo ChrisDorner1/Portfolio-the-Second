@@ -28,7 +28,8 @@ ol, ul {
   --color1: black;
   --color2: rgb(24, 37, 51);
   --color3: #ffffff;
-  --color4: maroon
+  --color4: maroon;
+  --haze: rgb(255, 255, 255, 0.5)
 
 
 }
