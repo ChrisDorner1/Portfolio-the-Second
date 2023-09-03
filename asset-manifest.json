@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-the-Second/static/css/main.cf6efe70.css",
-    "main.js": "/Portfolio-the-Second/static/js/main.76f2aec0.js",
+    "main.js": "/Portfolio-the-Second/static/js/main.65da514f.js",
     "static/media/Anime-Trivia.png": "/Portfolio-the-Second/static/media/Anime-Trivia.30dba57bc4e3e38165db.png",
     "static/media/Spoofy.png": "/Portfolio-the-Second/static/media/Spoofy.a6fb058bd7326e3fb764.png",
     "static/media/Weather-DashBoard.png": "/Portfolio-the-Second/static/media/Weather-DashBoard.ad06f3781e5647c6dc3b.png",
@@ -9,10 +9,10 @@
     "static/media/J.A.T.E.png": "/Portfolio-the-Second/static/media/J.A.T.E.ac7585cde322dd19faf7.png",
     "index.html": "/Portfolio-the-Second/index.html",
     "main.cf6efe70.css.map": "/Portfolio-the-Second/static/css/main.cf6efe70.css.map",
-    "main.76f2aec0.js.map": "/Portfolio-the-Second/static/js/main.76f2aec0.js.map"
+    "main.65da514f.js.map": "/Portfolio-the-Second/static/js/main.65da514f.js.map"
   },
   "entrypoints": [
     "static/css/main.cf6efe70.css",
-    "static/js/main.76f2aec0.js"
+    "static/js/main.65da514f.js"
   ]
 }
