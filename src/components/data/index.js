@@ -22,5 +22,10 @@ export const projects=[
         description: "A weather app using an API",
         link: "https://chrisdorner1.github.io/Weather-DashBoard/",
         repo: "https://github.com/ChrisDorner1/Weather-DashBoard"
+    }, {
+        name: "Anime-Journey",
+        description: "An Anime watchlist maker",
+        link: "https://anime-journey-d563ee7b2a5a.herokuapp.com/",
+        repo: "https://github.com/ChrisDorner1/Anime-Journey"
     }
 ]
