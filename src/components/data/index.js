@@ -8,7 +8,7 @@ export const projects=[
     {
         name: "Anime-Trivia",
         description: "A fun anime trivia game, wherein I am a contributer",
-        link: "",
+        link: "https://anime-trivia-afe9a77ab61d.herokuapp.com/login",
         repo: "https://github.com/owenmeade/anime-trivia-web-game"
     },
     {
